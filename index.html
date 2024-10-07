@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script type="module" src="./dist/index.es.js"> </script>
+
+</head>
+
+<body>
+  <pingback-form id="root" data-fields='[
+    {"name": "name", "type": "text", "label": "Full Name", "required": true},
+    {"name": "email", "type": "email", "label": "Email Address", "required": true},
+    {"name": "phone", "type": "tel", "label": "Phone Number", "required": false},
+    {"name": "role", "type": "select", "label": "Your Role", "options": ["Developer", "Designer", "Manager"], "required": true},
+    {"name": "message", "type": "textarea", "label": "Message", "required": false}
+  ]'> </pingback-form>
+</body>
+
+</html>
