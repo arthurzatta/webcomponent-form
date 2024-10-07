@@ -2,13 +2,6 @@
 
 ## Build Steps
 
-### Run Dev
-
-```bash
-npm install
-npm run dev # To run the project in development mode
-```
-
 ### Build Project
 
 ```bash
@@ -25,5 +18,3 @@ Open the _index.html_ in browser to visualize the embedded component.
 3. Get the _data-field_ attribute with the form settings
 4. Set up _vite.config.ts_ in lib mode, to generete the _index.es.js_ file
 5. Import the _index.es.js_ file inside html and use the _<pingback-form></pingback-form>_ tag
-
-##
