@@ -1,7 +1,5 @@
 # Pingback Form
 
-## Build Steps
-
 ### Build Project
 
 ```bash
